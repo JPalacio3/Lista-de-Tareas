@@ -1,0 +1,91 @@
+/** CSS **/
+
+body {
+    font-size: 12px;
+}
+
+.contenedor {
+    margin: 0 auto;
+    width: 95%;
+}
+
+h1 {
+    text-align: Center;
+    Font-size: 50px;
+}
+
+.box {
+    background: #eee;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid #aaa;
+}
+
+textarea {
+    width: 98%;
+    border-radius: 10px;
+    resize: none;
+    font-size: 1.8em;
+    height: 100px;
+    padding: 5px;
+}
+
+.btn-succes {
+    background: #4CAF50;
+    border: none;
+    border-radius: 10px;
+    margin-top: 5px;
+    font-weight: bold;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+}
+
+label {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.btn-danger {
+    background: rgb(230, 66, 66);
+    border: none;
+    border-radius: 50px;
+    color: white;
+    padding: 5px 10px;
+}
+
+#divTasks>div {
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(233, 233, 233);
+    border: 1px solid #aaa;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    min-height: 50px;
+}
+
+.divButtom {
+    text-align: right;
+    font-weight: bold;
+}
+
+.footer {
+    text-align: center;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 30px;
+    width: 100%;
+    background-color: rgb(223, 223, 223);
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+.footer p {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    text-align: center;
+}

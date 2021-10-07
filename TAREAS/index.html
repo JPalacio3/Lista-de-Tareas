@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIS TAREAS</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+
+    <h1>
+        Gestor de Tareas
+    </h1>
+
+
+    <div class="contenedor">
+        <div class="box">
+            <div>
+                <label> Texto de la tarea</label>
+                <textarea id="textTask" required></textarea>
+            </div>
+            <button onclick="taskManager.add()" class="btn-succes">Guardar</button>
+        </div>
+        <div id="divTasks">
+        </div>
+    </div>
+
+
+
+    <footer class="footer">
+        <p>
+            Elaborado por: <em> J. Palacio &copy;</em>.
+            <p>Guadalajara, Jalisco. 2021.</p>
+        </p>
+    </footer>
+    <script>
+        let taskManager = new TaskManager(
+            document.getElementById("divTasks"),
+            document.getElementById("textTask")
+        );
+    </script>
+</body>
+
+
+</html>
